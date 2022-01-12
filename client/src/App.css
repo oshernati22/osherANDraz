@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head_container {
+  background-color: #f8f8f8;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  border-collapse: separate;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 8px #d0d0d0;
+  z-index: 99;
+}
+@media only screen and (max-width: 768px) {
+  .head_container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    z-index: 0;
+  }
+}
+.header {
+  background: #3a7bd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a6073,
+    #3a7bd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a6073,
+    #3a7bd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: transparent;
+  font-size: 3rem;
+  -webkit-background-clip: text;
+}
